@@ -1,4 +1,4 @@
-# Student-Table
+# Student-Table Registration
 
 This program is designed
 for schools and universities 
