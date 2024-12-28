@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DynStudent Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Table</h1>
+        <form>
+            <input type="text" id="studentId" placeholder="Enter ID" required />
+            <input type="text" id="studentName" placeholder="Enter Name" required />
+            <input type="text" id="studentSemester" placeholder="Enter Semester" required />
+            <input type="text" id="studentClass" placeholder="Enter Class" required />
+            <button type="button" onclick="addStudent()">Add Student</button>
+        </form>
+        <div id="tableContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
